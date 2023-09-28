@@ -4,8 +4,8 @@ import { SlArrowRight } from "react-icons/sl";
 
 const Footer = () => {
     return (
-        <div className='bg-[#F5F5F7] h-[100vh]'>
-           <div className='container mx-auto pt-10 '>
+        <div className='bg-[#F5F5F7] h-full '>
+           <div className='container mx-auto pt-10 pb-10'>
                <div className=''>
                     <div className='flex items-center gap-2 text-[#808083]'>
                     <FaApple className='text-[#6e6e72] hover:text-black cursor-pointer text-[18px]'/>

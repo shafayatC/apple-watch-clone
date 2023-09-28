@@ -1,0 +1,14 @@
+.img-container-page3 { 
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+
+  
+  }
+  
+  .watch-page3-img{
+    max-width: 2000px;
+    height: 460px;
+  }
+  

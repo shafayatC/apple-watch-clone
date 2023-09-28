@@ -1,20 +1,13 @@
 .img-container { 
-    overflow: hidden; 
-    /* min-width: 1152px; */
-    max-width: 1740px;
-    margin: 100px auto;
-    /* position: relative; */
-  
+ 
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+
 
 }
 
- img {
-  vertical-align: middle; /* remove the vertical gap under inline level elements */
-
-  /* position: relative; */
-   /* left: 20%; */
-  /* -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%); */
-  /* transform: translateX(-50%);  */
+.watch-img{
+  max-width: 430px;
+  height: 680px;
 }

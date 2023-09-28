@@ -6,15 +6,15 @@ import './style.css';
 
 const PageOne = () => {
     return (
-        <div className='flex h-[150vh] gap-4 mt-12 img-container'>
+        <div className='flex h-full gap-4 img-container my-12'>
             <div >
-                <img  className='max-w-screen-lg img' src={image2} />
+                <img  className=' max-w-[770px]' src={image2} />
             </div>
-            <div>
-                <img className='max-w-screen-lg h-[720px] img' src={image3} />
+            <div className=''>
+                <img className='watch-img' src={image3} />
             </div>
             <div >
-                <img  className='max-w-screen-lg img' src={image1} />
+                <img  className=' max-w-[770px]' src={image1} />
             </div>
         </div>
     );
