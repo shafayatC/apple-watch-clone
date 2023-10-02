@@ -6,6 +6,7 @@ import PageFour from '../PageFour/PageFour';
 import PageFive from '../PageFive/PageFive';
 import PageSix from '../PageSix/PageSix';
 import PageSeven from '../PageSeven/PageSeven';
+import PageEight from '../PageEight/PageEight';
 
 const HomeContainer = () => {
     return (
@@ -17,6 +18,7 @@ const HomeContainer = () => {
             <PageFive/>
             <PageSix/>
             <PageSeven/>
+            <PageEight/>
         </div>
     );
 };
