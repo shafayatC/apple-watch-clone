@@ -1,0 +1,10 @@
+.background-page-four{
+    background-image: url('../../images/4.jpg');
+    background-size: 100% 100%;
+    height: 150vh;
+    background-repeat: no-repeat;
+}
+
+.line-height{
+    line-height: 60px;
+}

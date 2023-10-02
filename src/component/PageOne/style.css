@@ -1,0 +1,13 @@
+.img-container { 
+ 
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.watch-img{
+  max-width: 430px;
+  height: 680px;
+}
