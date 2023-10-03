@@ -7,6 +7,10 @@ import PageFive from '../PageFive/PageFive';
 import PageSix from '../PageSix/PageSix';
 import PageSeven from '../PageSeven/PageSeven';
 import PageEight from '../PageEight/PageEight';
+import PageNine from '../PageNine/PageNine';
+import PageTen from '../PageTen/PageTen';
+import PageEleven from '../PageEleven/PageEleven';
+import PageTwelve from '../PageTwelve/PageTwelve';
 
 const HomeContainer = () => {
     return (
@@ -19,6 +23,10 @@ const HomeContainer = () => {
             <PageSix/>
             <PageSeven/>
             <PageEight/>
+            <PageNine/>
+            <PageTen/>
+            <PageEleven/>
+            <PageTwelve/>
         </div>
     );
 };
