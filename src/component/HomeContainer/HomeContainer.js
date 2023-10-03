@@ -11,6 +11,9 @@ import PageNine from '../PageNine/PageNine';
 import PageTen from '../PageTen/PageTen';
 import PageEleven from '../PageEleven/PageEleven';
 import PageTwelve from '../PageTwelve/PageTwelve';
+import PageThirteen from '../PageThirteen/PageThirteen';
+import PageFourteen from '../PageFourteen/PageFourteen';
+import PageFifteen from '../PageFifteen/PageFifteen';
 
 const HomeContainer = () => {
     return (
@@ -27,6 +30,9 @@ const HomeContainer = () => {
             <PageTen/>
             <PageEleven/>
             <PageTwelve/>
+            <PageThirteen/>
+            <PageFourteen/>
+            <PageFifteen/>
         </div>
     );
 };
