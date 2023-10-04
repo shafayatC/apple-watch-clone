@@ -14,6 +14,17 @@ import PageTwelve from '../PageTwelve/PageTwelve';
 import PageThirteen from '../PageThirteen/PageThirteen';
 import PageFourteen from '../PageFourteen/PageFourteen';
 import PageFifteen from '../PageFifteen/PageFifteen';
+import PageSixteen from '../PageSixteen/PageSixteen';
+import PageSeventeen from '../PageSeventeen/PageSeventeen';
+import PageEighteen from '../PageEighteen/PageEighteen';
+import PageNineteen from '../PageNineteen/PageNineteen';
+import PageTwenty from '../PageTwenty/PageTwenty';
+import PageTwentyOne from '../PageTwentyOne/PageTwentyOne';
+import PageTwentyTwo from '../PageTwentyTwo/PageTwentyTwo';
+import PageTwentyThree from '../PageTwentyThree/PageTwentyThree';
+import PageTwentyFour from '../PageTwentyFour/PageTwentyFour';
+import PageTwentyFive from '../PageTwentyFive/PageTwentyFive';
+import PageTwentySix from '../PageTwentySix/PageTwentySix';
 
 const HomeContainer = () => {
     return (
@@ -33,6 +44,17 @@ const HomeContainer = () => {
             <PageThirteen/>
             <PageFourteen/>
             <PageFifteen/>
+            <PageSixteen/>
+            <PageSeventeen/>
+            <PageEighteen/>
+            <PageNineteen/>
+            <PageTwenty/>
+            <PageTwentyOne/>
+            <PageTwentyTwo/>
+            <PageTwentyThree/>
+            <PageTwentyFour/>
+            <PageTwentyFive/>
+            <PageTwentySix/>
         </div>
     );
 };
