@@ -25,6 +25,9 @@ import PageTwentyThree from '../PageTwentyThree/PageTwentyThree';
 import PageTwentyFour from '../PageTwentyFour/PageTwentyFour';
 import PageTwentyFive from '../PageTwentyFive/PageTwentyFive';
 import PageTwentySix from '../PageTwentySix/PageTwentySix';
+import PageTwentySeven from '../PageTwentySeven/PageTwentySeven';
+import PageTwentyEight from '../PageTwentyEight/PageTwentyEight';
+import PageTwentyNine from '../PageTwentyNine/PageTwentyNine';
 
 const HomeContainer = () => {
     return (
@@ -55,6 +58,9 @@ const HomeContainer = () => {
             <PageTwentyFour/>
             <PageTwentyFive/>
             <PageTwentySix/>
+            <PageTwentySeven/>
+            <PageTwentyEight/>
+            <PageTwentyNine/>
         </div>
     );
 };
