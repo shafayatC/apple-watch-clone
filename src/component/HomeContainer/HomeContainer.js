@@ -35,10 +35,12 @@ import PageThirtyThree from '../PageThirtyThree/PageThirtyThree';
 import PageThirtyFour from '../PageThirtyFour/PageThirtyFour';
 import PageThirtyFive from '../PageThirtyFive/PageThirtyFive';
 import PageThirtySix from '../PageThirtySix/PageThirtySix';
+import Header from '../Header/Header';
 
 const HomeContainer = () => {
     return (
         <div>
+            <Header/>
             <PageOne/>
             <PageTwo/>
             <PageThree/>

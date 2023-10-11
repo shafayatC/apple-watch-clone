@@ -1,10 +1,23 @@
 .background-page-four{
-    background-image: url('../../images/4.jpg');
-    background-size: 100% 100%;
-    height: 150vh;
-    background-repeat: no-repeat;
+    /* background-image: url('../../images/4.jpg');
+    background-size: 100% 100%; */
+    height: 1279px;
+    /* background-repeat: no-repeat; */
+    position: relative;
 }
 
 .line-height{
     line-height: 60px;
+}
+.image-fill-wrapper {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+.image-fill-wrapper, .image-fill-wrapper img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
