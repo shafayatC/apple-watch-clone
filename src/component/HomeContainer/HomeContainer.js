@@ -28,6 +28,10 @@ import PageTwentySix from '../PageTwentySix/PageTwentySix';
 import PageTwentySeven from '../PageTwentySeven/PageTwentySeven';
 import PageTwentyEight from '../PageTwentyEight/PageTwentyEight';
 import PageTwentyNine from '../PageTwentyNine/PageTwentyNine';
+import PageThirty from '../PageThirty/PageThirty';
+import PageThirtyOne from '../PageThirtyOne/PageThirtyOne';
+import PageThirtyTwo from '../PageThirtyTwo/PageThirtyTwo';
+import PageThirtyThree from '../PageThirtyThree/PageThirtyThree';
 
 const HomeContainer = () => {
     return (
@@ -61,6 +65,10 @@ const HomeContainer = () => {
             <PageTwentySeven/>
             <PageTwentyEight/>
             <PageTwentyNine/>
+            <PageThirty/>
+            <PageThirtyOne/>
+            <PageThirtyTwo/>
+            <PageThirtyThree/>
         </div>
     );
 };
