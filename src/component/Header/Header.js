@@ -28,7 +28,7 @@ const Header = () => {
                 </div>
             </div>
 
-            <div className='navStickWrapper top-0 sticky h-[58px] flex flex-col justify-center' style={{background: "rgba(251,251,253,0.8)", backdropFilter: "saturate(180%) blur(20px)"}}>
+            <div className='navStickWrapper z-50 top-0 sticky h-[58px] flex flex-col justify-center' style={{background: "rgba(251,251,253,0.8)", backdropFilter: "saturate(180%) blur(20px)"}}>
                 <div className='container mx-auto '>
                     <div className='grid grid-cols-2'>
                         <h1 className='text-xl font-semibold'>Apple Watch Ultra 2</h1>
