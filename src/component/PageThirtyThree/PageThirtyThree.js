@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
 import img40 from "../../images/40.png"
 import img401 from "../../images/40.2.png"
@@ -79,7 +80,7 @@ const PageThirtyThree = () => {
                     <h1 className='text-[60px] font-bold -mt-5'>with cellular.</h1>
                 </div>
 
-                <div className='grid grid-cols-3 justify-items-center gap-12 pb-40'>
+                    <div className='grid grid-cols-3 justify-items-center gap-12 pb-40'>
                         <div>
                             <img src={img42}/>
                             <p className='w-[300px] font-semibold text-[#86868B] leading-6 text-xl mt-5'><span className='text-black'>Call and text.</span>Cellular is built into every Apple Watch Ultra 2.18 With a service plan, you can keep in touch almost anywhere, even when your iPhone is out of reach. And stay connected abroad with an international roaming plan.19</p>
@@ -104,7 +105,7 @@ const PageThirtyThree = () => {
                             <img src={img425}/>
                             <p className='w-[300px] font-semibold text-[#86868B] leading-6 text-xl mt-5'><span className='text-black'>Precision Finding.</span> A second-generation Ultra Wideband chip enables Precision Finding for iPhone,24 a new experience that gives you the approximate distance and direction to your phone with helpful haptic feedback.</p>
                         </div>
-                </div>
+                    </div>
             </div>
         </div>
     );

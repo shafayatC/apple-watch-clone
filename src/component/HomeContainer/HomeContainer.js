@@ -32,6 +32,9 @@ import PageThirty from '../PageThirty/PageThirty';
 import PageThirtyOne from '../PageThirtyOne/PageThirtyOne';
 import PageThirtyTwo from '../PageThirtyTwo/PageThirtyTwo';
 import PageThirtyThree from '../PageThirtyThree/PageThirtyThree';
+import PageThirtyFour from '../PageThirtyFour/PageThirtyFour';
+import PageThirtyFive from '../PageThirtyFive/PageThirtyFive';
+import PageThirtySix from '../PageThirtySix/PageThirtySix';
 
 const HomeContainer = () => {
     return (
@@ -69,6 +72,10 @@ const HomeContainer = () => {
             <PageThirtyOne/>
             <PageThirtyTwo/>
             <PageThirtyThree/>
+            <PageThirtyFour/>
+            <PageThirtyFive/>
+            <PageThirtySix/>
+            
         </div>
     );
 };
