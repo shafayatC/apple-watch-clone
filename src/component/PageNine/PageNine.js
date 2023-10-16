@@ -5,11 +5,11 @@ import watch3 from "../../images/10.3.jpg"
 
 const PageNine = () => {
     return (
-        <div className='bg-[#F7F7F7] h-[170vh]'>
+        <div className='bg-[#F7F7F7] pb-20'>
             <div className='container mx-auto'>
                 <div className='pt-40 ml-40'>
                     <div>
-                        <p className='bg-[#F7E8DE] text-[#BD5517] mb-7 font-semibold rounded-md text-center w-40'>Available in October</p>
+                        <p className='bg-[#F7E8DE] text-[#BD5517] mb-7 font-semibold rounded-md text-center w-48'>Available in October</p>
                     </div>
                     <div>
                         <p className='w-[500px] mr-24 text-[#86868B] font-semibold text-[18px]'><span className='text-black'>Magic. At your fingertips.</span> Quickly and easily interact with your Apple Watch Ultra 2 without touching the display. Double tap your index finger and thumb to answer calls, pause and resume timers, and more. It makes everyday actions even easier, especially in demanding situations where you don’t have an extra hand to spare.</p>

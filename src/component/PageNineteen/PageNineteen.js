@@ -4,8 +4,8 @@ import img22 from '../../images/22.2.png'
 
 const PageNineteen = () => {
     return (
-        <div className='bg-black -mt-52'>
-            <div className='container mx-auto'>
+        <div className='bg-black'>
+            <div className='container mx-auto -mt-[150px]'>
                 <div className='relative'>
                     <img src={img21}/>
                     <p className='absolute top-[40%] right-[10%] w-[550px] text-white text-2xl font-semibold leading-7'>Designed to take on a wide range of environments, elevations, and temperatures, Apple Watch Ultra 2 is an essential exploration tool that can take you everywhere. And help get you home.</p>
