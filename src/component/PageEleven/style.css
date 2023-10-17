@@ -1,6 +1,31 @@
 .background-page-eleven{
-    background-image: url('../../images/12.jpg');
-    background-size: 100% 100%;
-    height: 140vh;
-    background-repeat: no-repeat;
+    position: relative;
+    height: 1279px;
+}
+
+
+.image-fill-wrapper {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+.image-fill-wrapper, .image-fill-wrapper img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.image-fill-wrapper2 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 450px;
+}
+.image-fill-wrapper2, .image-fill-wrapper2 img {
+	width: 100%;
+    /* height: 80%; */
+	
 }
