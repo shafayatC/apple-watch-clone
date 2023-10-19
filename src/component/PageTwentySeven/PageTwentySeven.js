@@ -18,7 +18,7 @@ const PageTwentySeven = () => {
                 <source srcSet={imageSmall} media="(max-width:734px)" />
                 <source srcSet={imageMediam} media="(max-width:1068px)" />
                 <source srcSet={imageLarg} media="(min-width:0px)" />
-                <img src={imageLarg} alt="" />
+                <img src={imageLarg} alt=""  />
             </picture>        
         </div>
     );
