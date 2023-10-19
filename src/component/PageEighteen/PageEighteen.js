@@ -7,10 +7,12 @@ import "./style.css"
 const PageEighteen = () => {
     return (
         <div className='background-page-18th'>
-            <div className='pt-40 pl-40 z-10 relative'>
-                <p className='text-white font-bold text-3xl'>Adventure</p>
-                <p className='text-[#F56900] text-[110px] font-bold'>Peak performance.</p>
-                <p className='text-[#F56900] -mt-12 text-[110px] font-bold'>Pushed.</p>
+            <div className='container mx-auto'>
+                <div className='pt-40 pl-40 z-10 relative'>
+                    <p className='text-white font-bold text-3xl'>Adventure</p>
+                    <p className='text-[#F56900] text-[110px] font-bold'>Peak performance.</p>
+                    <p className='text-[#F56900] -mt-12 text-[110px] font-bold'>Pushed.</p>
+                </div>
             </div>
             <picture className='image-fill-wrappers'>
                 <source srcSet={imageSmall} media="(max-width:734px)" />
